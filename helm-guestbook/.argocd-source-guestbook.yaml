@@ -4,5 +4,8 @@ helm:
     value: gcr.io/heptio-images/ks-guestbook-demo
     forcestring: true
   - name: image.tag
-    value: "0.1"
+    value: "0.2"
+    forcestring: true
+  - name: image.repository
+    value: gcr.io/heptio-images/ks-guestbook-demo
     forcestring: true
